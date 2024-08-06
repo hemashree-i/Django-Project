@@ -1,0 +1,63 @@
+.form_container
+{
+    width: 550px;
+    height:250px;
+    color: orangered;
+    background-color: #fff;
+    border: 3px solid blueviolet;
+}
+.color
+{
+    color: black;
+    
+}
+.form_container th{
+    color: peru;
+    background-color:dimgray;
+
+}
+
+.percentage_form
+{
+    border:1px solid rgb(183, 255, 0);
+    height: 530px;
+    width: 600px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px ;
+    border-radius: 20px;
+    background-color: aquamarine;
+    color: black;
+    margin-left: 300px;
+}
+.pic
+{
+    display: inline-block;
+    justify-content: space-evenly;
+
+    height: 80px;
+    width: 120px;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url('https://th.bing.com/th/id/R.9efd7962f7cba005948112e6144535c3?rik=sV6InFo81vjS4w&riu=http%3a%2f%2fweknowyourdreams.com%2fimages%2fkids%2fkids-03.jpg&ehk=PGsFFw0XpgVJ9WFHFkeda43rHvuyr3v%2fDMJyhWbONdQ%3d&risl=&pid=ImgRaw&r=0')
+
+}
+.display
+{
+    display: flex;
+    /* display: inline-block; */
+    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn btn-warning
+{
+    justify-content: space-evenly;
+
+}
+h1
+{
+    margin-left: 450px;
+}

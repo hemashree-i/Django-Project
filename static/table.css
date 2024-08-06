@@ -1,0 +1,45 @@
+.table_container
+    {
+        width: 700px;
+        height: 300px; 
+        border-collapse: collapse;
+        border: 3px solid rgb(78, 47, 255);
+    }
+    
+.database
+{
+    margin-top: 30px;
+}
+ .table_container td 
+{
+    padding: 10px;
+    text-align: center;
+    
+      
+}
+.table_container th
+{
+    padding: 10px;
+    text-align: center;
+    background-color:tomato;
+      
+}
+tr:nth-child(odd)
+{
+    background-color: yellow;    
+}
+
+tr:nth-child(odd):hover
+{
+    background-color:aqua;
+        
+}
+
+
+
+body{
+    place-items: center;
+    display: grid;
+    
+}
+
